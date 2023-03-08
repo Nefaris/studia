@@ -177,79 +177,79 @@
 
    Walidacja i weryfikacja statyczna są przeprowadzane na produktach w fazie wczesnego etapu procesu wytwórczego, takich jak dokumenty specyfikacji wymagań i projektowe. Walidacja statyczna polega na ocenie poprawności i kompletności produktów, a weryfikacja statyczna na ocenie zgodności z normami i standardami. Walidacja i weryfikacja dynamiczna są przeprowadzane na produktach w fazie późniejszego etapu procesu wytwórczego, takich jak kod i testy. Walidacja dynamiczna polega na ocenie, czy produkt spełnia wymagania użytkowników, a weryfikacja dynamiczna na ocenie zgodności z dokumentacją projektową i wymaganiami.
 
-2. **Przedstaw uwarunkowania trójkąta inżynierii oprogramowania oraz wskaż w jaki sposób możemy w projekcie minimalizować ryzyka (w postaci zagrożeń) związane z jego atrybutami.**
+1. **Przedstaw uwarunkowania trójkąta inżynierii oprogramowania oraz wskaż w jaki sposób możemy w projekcie minimalizować ryzyka (w postaci zagrożeń) związane z jego atrybutami.**
 
    Trójkąt inżynierii oprogramowania obejmuje trzy atrybuty: czas, koszt i jakość. Minimalizowanie ryzyka związane z tymi atrybutami można osiągnąć poprzez stosowanie metodyki Agile, w której priorytetem jest dostarczenie działającego produktu, w ciągłym dialogu z klientem i szybkim reagowaniu na zmiany. W Agile często stosuje się techniki takie jak refaktoryzacja, testowanie jednostkowe, ciągła integracja, w celu minimalizacji ryzyka i poprawy jakości kodu.
 
-3. **Posługując się praktycznym przykładem wyjaśnij na czym polega planowanie adaptacyjne. Jaki model cyklu życia oprogramowania wspiera planowanie tego typu?**
+1. **Posługując się praktycznym przykładem wyjaśnij na czym polega planowanie adaptacyjne. Jaki model cyklu życia oprogramowania wspiera planowanie tego typu?**
 
-4. **Czy w przypadku zastosowania planowania predykcyjnego możemy zastosować kaskadowy model zarządzania cyklem wytwarzania oprogramowania? Uzasadnij swoją odpowiedź posługując się praktycznym przykładem.**
+1. **Czy w przypadku zastosowania planowania predykcyjnego możemy zastosować kaskadowy model zarządzania cyklem wytwarzania oprogramowania? Uzasadnij swoją odpowiedź posługując się praktycznym przykładem.**
 
    W przypadku planowania predykcyjnego, w którym wszystkie etapy projektu są ściśle określone, trudno jest zastosować kaskadowy model zarządzania cyklem wytwarzania oprogramowania, ponieważ zmiany w projekcie są trudne do wprowadzenia. Przykładem może być projektowanie systemu medycznego, gdzie wymagania są ściśle określone i nie ma miejsca na zmiany.
 
-5. **Jakie uwarunkowania projektu powinna obejmować analiza na poziomie wymagań biznesowych, a jakie na poziomie wymagań użytkowników i poziomie wymagań funkcjonalnych?**
+1. **Jakie uwarunkowania projektu powinna obejmować analiza na poziomie wymagań biznesowych, a jakie na poziomie wymagań użytkowników i poziomie wymagań funkcjonalnych?**
 
    Analiza na poziomie wymagań biznesowych powinna obejmować uwarunkowania biznesowe, takie jak cele biznesowe, rynek, konkurencję i inne. Analiza na poziomie wymagań użytkowników powinna obejmować potrzeby użytkowników, oczekiwania i preferencje, a analiza na poziomie wymagań funkcjonalnych powinna obejmować specyfikację funkcjonalną produktu.
 
-6. **Na co dokładnie mają wpływ w projekcie programistycznym wymagania pozafunkcjonalne opisujące usługi lub charakterystyki wydajnościowe produktu programistycznego?**
+1. **Na co dokładnie mają wpływ w projekcie programistycznym wymagania pozafunkcjonalne opisujące usługi lub charakterystyki wydajnościowe produktu programistycznego?**
 
    Wymagania pozafunkcjonalne opisują usługi lub charakterystyki wydajnościowe produktu programistycznego, takie jak szybkość, wydajność, niezawodność, bezpieczeństwo, łatwość konserwacji, skalowalność, dostępność i inne. Mają one wpływ na projektowanie systemu i wybór technologii.
 
-7. **Czym się różnią wymagania systemowe od wymagań funkcjonalnych i wymagań determinowanych przez interfejsy zewnętrzne dla projektowanego oprogramowania?**
+1. **Czym się różnią wymagania systemowe od wymagań funkcjonalnych i wymagań determinowanych przez interfejsy zewnętrzne dla projektowanego oprogramowania?**
 
    Wymagania systemowe dotyczą cech i ograniczeń systemu, takich jak dostępność, niezawodność, wydajność, bezpieczeństwo i skalowalność, podczas gdy wymagania funkcjonalne dotyczą funkcjonalności systemu, takiej jak jego zachowanie w odpowiedzi na określone wejście. Wymagania determinowane przez interfejsy zewnętrzne odnoszą się do interakcji systemu z innymi systemami lub aplikacjami.
 
-8. **Przedstaw istotne różnice pomiędzy strategią pozyskiwania wymagań zorientowaną na użycie a strategią pozyskiwania wymagań zorientowaną na produkt.**
+1. **Przedstaw istotne różnice pomiędzy strategią pozyskiwania wymagań zorientowaną na użycie a strategią pozyskiwania wymagań zorientowaną na produkt.**
 
    Strategia pozyskiwania wymagań zorientowana na użycie koncentruje się na zrozumieniu, w jaki sposób użytkownicy korzystają z produktu, podczas gdy strategia pozyskiwania wymagań zorientowana na produkt skupia się na definiowaniu cech i funkcjonalności produktu. Ważne jest, aby stosować obie strategie w celu uzyskania pełnego obrazu wymagań produktu.
 
-9. **Wymień co najmniej trzy główne aktywności zarządzania wymaganiami dla produktu programistycznego, które nie przyczynią się do powstania konieczności wprowadzania zmian w projekcie.**
+1. **Wymień co najmniej trzy główne aktywności zarządzania wymaganiami dla produktu programistycznego, które nie przyczynią się do powstania konieczności wprowadzania zmian w projekcie.**
 
    Trzy główne aktywności zarządzania wymaganiami to planowanie wymagań, analiza wymagań i śledzenie wymagań. Planowanie wymagań obejmuje określenie strategii pozyskiwania wymagań, zakresu i priorytetów. Analiza wymagań polega na zrozumieniu i precyzyjnym sformułowaniu wymagań. Śledzenie wymagań dotyczy monitorowania zmian w wymaganiach i ich weryfikacji w celu zapewnienia zgodności z dokumentacją projektową.
 
-10. **Jaka istotna cecha modelu spiralnego wyróżnia go w odniesieniu do każdego innego modelu zarządzania cyklem wytwarzania oprogramowania?**
+1. **Jaka istotna cecha modelu spiralnego wyróżnia go w odniesieniu do każdego innego modelu zarządzania cyklem wytwarzania oprogramowania?**
 
-Wyróżniającą cechą modelu spiralnego jest to, że jest to model iteracyjny, w którym każda iteracja obejmuje planowanie, projektowanie, budowanie i testowanie. Jest to model cyklu życia oprogramowania, który pozwala na stopniowe doskonalenie produktu w oparciu o informacje uzyskane na każdym etapie. Odróżnia go to od innych modeli, takich jak model kaskadowy, gdzie każda faza projektu jest oddzielona i poprzedzająca kolejną.
+   Wyróżniającą cechą modelu spiralnego jest to, że jest to model iteracyjny, w którym każda iteracja obejmuje planowanie, projektowanie, budowanie i testowanie. Jest to model cyklu życia oprogramowania, który pozwala na stopniowe doskonalenie produktu w oparciu o informacje uzyskane na każdym etapie. Odróżnia go to od innych modeli, takich jak model kaskadowy, gdzie każda faza projektu jest oddzielona i poprzedzająca kolejną.
 
-11. **Jaka jest największa wada zastosowania modelu ewolucyjnego w procesie wytwarzania oprogramowania?**
+1. **Jaka jest największa wada zastosowania modelu ewolucyjnego w procesie wytwarzania oprogramowania?**
 
-Największą wadą zastosowania modelu ewolucyjnego jest jego brak struktury i nieprzewidywalność, co może prowadzić do nieoczekiwanych problemów i opóźnień w procesie wytwarzania oprogramowania. Ponadto, ze względu na to, że model ten polega na ciągłym dopracowywaniu produktu, koszty projektu mogą być trudne do oszacowania i kontrolowania.
+   Największą wadą zastosowania modelu ewolucyjnego jest jego brak struktury i nieprzewidywalność, co może prowadzić do nieoczekiwanych problemów i opóźnień w procesie wytwarzania oprogramowania. Ponadto, ze względu na to, że model ten polega na ciągłym dopracowywaniu produktu, koszty projektu mogą być trudne do oszacowania i kontrolowania.
 
-12. **Które perspektywy modelu „4+1” opisują wewnętrzną strukturę tworzonego oprogramowania na różnych poziomach abstrakcji i szczegółowości?**
+1. **Które perspektywy modelu „4+1” opisują wewnętrzną strukturę tworzonego oprogramowania na różnych poziomach abstrakcji i szczegółowości?**
 
-Model "4+1" składa się z pięciu perspektyw, z których cztery dotyczą różnych aspektów architektury systemu: perspektywa logiczna, perspektywa procesowa, perspektywa fizyczna oraz perspektywa wdrożenia. Piąta perspektywa, perspektywa przypadków użycia, opisuje interakcje między użytkownikami a systemem.
+   Model "4+1" składa się z pięciu perspektyw, z których cztery dotyczą różnych aspektów architektury systemu: perspektywa logiczna, perspektywa procesowa, perspektywa fizyczna oraz perspektywa wdrożenia. Piąta perspektywa, perspektywa przypadków użycia, opisuje interakcje między użytkownikami a systemem.
 
-13. **Omów jakie atrybuty zewnętrzne oraz jakie atrybuty wewnętrzne powinny zostać zawsze zdefiniowane metrycznie (określone ilościowo) w przypadku specyfikacji, jakie w przypadku kodu źródłowego, a jakie dla danych testowych.**
+1. **Omów jakie atrybuty zewnętrzne oraz jakie atrybuty wewnętrzne powinny zostać zawsze zdefiniowane metrycznie (określone ilościowo) w przypadku specyfikacji, jakie w przypadku kodu źródłowego, a jakie dla danych testowych.**
 
-Atrybuty zewnętrzne, takie jak wydajność i niezawodność, powinny być zdefiniowane metrycznie w specyfikacji, podczas gdy atrybuty wewnętrzne, takie jak jakość kodu, powinny być zdefiniowane metrycznie w kodzie źródłowym. Atrybuty danych testowych, takie jak poprawność i kompletność, również powinny być zdefiniowane metrycznie.
+   Atrybuty zewnętrzne, takie jak wydajność i niezawodność, powinny być zdefiniowane metrycznie w specyfikacji, podczas gdy atrybuty wewnętrzne, takie jak jakość kodu, powinny być zdefiniowane metrycznie w kodzie źródłowym. Atrybuty danych testowych, takie jak poprawność i kompletność, również powinny być zdefiniowane metrycznie.
 
-14. **W jaki sposób możemy poprawnie oszacować opłacalność projektu informatycznego?**
+1. **W jaki sposób możemy poprawnie oszacować opłacalność projektu informatycznego?**
 
-Opłacalność projektu informatycznego można oszacować poprzez porównanie kosztów z zyskami, czyli opłacalnością projektu. W skrócie, opłacalność projektu jest to stosunek zysków do kosztów.
+   Opłacalność projektu informatycznego można oszacować poprzez porównanie kosztów z zyskami, czyli opłacalnością projektu. W skrócie, opłacalność projektu jest to stosunek zysków do kosztów.
 
-15. **Jaka jest relacja pomiędzy kosztem a opłacalnością projektu programistycznego?**
+1. **Jaka jest relacja pomiędzy kosztem a opłacalnością projektu programistycznego?**
 
-Koszt projektu programistycznego jest jednym z czynników wpływających na jego opłacalność. Im niższy koszt, tym większa szansa na uzyskanie wyższej opłacalności. Jednakże, koszt nie jest jedynym czynnikiem wpływającym na opłacalność projektu.
+   Koszt projektu programistycznego jest jednym z czynników wpływających na jego opłacalność. Im niższy koszt, tym większa szansa na uzyskanie wyższej opłacalności. Jednakże, koszt nie jest jedynym czynnikiem wpływającym na opłacalność projektu.
 
-16. **Co należy uwzględnić w procesie estymacji nakładu pracy dla danego przedsięwzięcia programistycznego? Na co rzutuje ten atrybut procesu w projekcie?**
+1. **Co należy uwzględnić w procesie estymacji nakładu pracy dla danego przedsięwzięcia programistycznego? Na co rzutuje ten atrybut procesu w projekcie?**
 
-W procesie estymacji nakładu pracy dla danego przedsięwzięcia programistycznego należy uwzględnić wiele czynników, takich jak liczba członków zespołu, poziom skomplikowania projektu, wymagania funkcjonalne i niefunkcjonalne, dostępność zasobów, harmonogram prac i inne. Rzutuje to na dokładność oszacowania nakładu pracy i czasu trwania projektu.
+   W procesie estymacji nakładu pracy dla danego przedsięwzięcia programistycznego należy uwzględnić wiele czynników, takich jak liczba członków zespołu, poziom skomplikowania projektu, wymagania funkcjonalne i niefunkcjonalne, dostępność zasobów, harmonogram prac i inne. Rzutuje to na dokładność oszacowania nakładu pracy i czasu trwania projektu.
 
-17. **W związku z tym, że w każdym projekcie programistycznym estymacji podlega wiele atrybutów procesu i produktów rozwoju oprogramowania, wyjaśnij w jaki sposób możemy ocenić sprawdzalność wybranych metod estymacji i procesu i produktu.**
+1. **W związku z tym, że w każdym projekcie programistycznym estymacji podlega wiele atrybutów procesu i produktów rozwoju oprogramowania, wyjaśnij w jaki sposób możemy ocenić sprawdzalność wybranych metod estymacji i procesu i produktu.**
 
-Aby ocenić sprawdzalność wybranych metod estymacji i procesu i produktu, można wykorzystać techniki analizy ryzyka i testowanie. Przykładowo, podejście zwinne umożliwia częste testowanie produktu i dokonywanie korekt w celu zwiększenia jego jakości i zapewnienia zgodności z wymaganiami.
+   Aby ocenić sprawdzalność wybranych metod estymacji i procesu i produktu, można wykorzystać techniki analizy ryzyka i testowanie. Przykładowo, podejście zwinne umożliwia częste testowanie produktu i dokonywanie korekt w celu zwiększenia jego jakości i zapewnienia zgodności z wymaganiami.
 
-18. **Wyjaśnij w jaki sposób możemy dokonać oceny ryzyka dla realizowanego przedsięwzięcia programistycznego.**
+1. **Wyjaśnij w jaki sposób możemy dokonać oceny ryzyka dla realizowanego przedsięwzięcia programistycznego.**
 
-Ocena ryzyka w projekcie programistycznym polega na identyfikacji, analizie, ocenie i zarządzaniu ryzykiem w celu minimalizacji negatywnych skutków, jakie mogą pojawić się w trakcie realizacji projektu. Aby dokonać oceny ryzyka, należy dokładnie przeanalizować projekt, zidentyfikować potencjalne problemy, które mogą wpłynąć na powodzenie projektu, sporządzić listę możliwych ryzyk oraz dokładnie przebadać każde zidentyfikowane ryzyko pod kątem jego wpływu na projekt i prawdopodobieństwa wystąpienia. Następnie ocenia się ryzyko na podstawie prawdopodobieństwa i wpływu, a także podejmuje się odpowiednie działania, aby zminimalizować ryzyko. W procesie oceny ryzyka ważne jest również określenie krytycznych obszarów projektu, które wymagają szczególnej uwagi i przygotowania planu awaryjnego w razie wystąpienia problemów.
+   Ocena ryzyka w projekcie programistycznym polega na identyfikacji, analizie, ocenie i zarządzaniu ryzykiem w celu minimalizacji negatywnych skutków, jakie mogą pojawić się w trakcie realizacji projektu. Aby dokonać oceny ryzyka, należy dokładnie przeanalizować projekt, zidentyfikować potencjalne problemy, które mogą wpłynąć na powodzenie projektu, sporządzić listę możliwych ryzyk oraz dokładnie przebadać każde zidentyfikowane ryzyko pod kątem jego wpływu na projekt i prawdopodobieństwa wystąpienia. Następnie ocenia się ryzyko na podstawie prawdopodobieństwa i wpływu, a także podejmuje się odpowiednie działania, aby zminimalizować ryzyko. W procesie oceny ryzyka ważne jest również określenie krytycznych obszarów projektu, które wymagają szczególnej uwagi i przygotowania planu awaryjnego w razie wystąpienia problemów.
 
-19. **Jakie możliwe działania można podjąć odnośnie ryzyka typu szansa, a jakie odnośnie ryzyka typu zagrożenie w projekcie programistycznym?**
+1. **Jakie możliwe działania można podjąć odnośnie ryzyka typu szansa, a jakie odnośnie ryzyka typu zagrożenie w projekcie programistycznym?**
 
-W przypadku ryzyka typu szansa, czyli nieoczekiwanej korzyści, możemy podjąć działania, które pomogą nam ją wykorzystać w projekcie programistycznym. Możemy zwiększyć nakład pracy w określonym obszarze, by jak najlepiej wykorzystać szansę, a także zmodyfikować cele projektu, by zawrzeć w nich wykorzystanie możliwej korzyści. W przypadku ryzyka typu zagrożenie, możemy podjąć działania zmierzające do zminimalizowania skutków tego zagrożenia. Na przykład, w przypadku zagrożenia opóźnieniem w dostawie sprzętu, możemy zwiększyć nakład pracy w innych obszarach projektu, by zrekompensować opóźnienie.
+   W przypadku ryzyka typu szansa, czyli nieoczekiwanej korzyści, możemy podjąć działania, które pomogą nam ją wykorzystać w projekcie programistycznym. Możemy zwiększyć nakład pracy w określonym obszarze, by jak najlepiej wykorzystać szansę, a także zmodyfikować cele projektu, by zawrzeć w nich wykorzystanie możliwej korzyści. W przypadku ryzyka typu zagrożenie, możemy podjąć działania zmierzające do zminimalizowania skutków tego zagrożenia. Na przykład, w przypadku zagrożenia opóźnieniem w dostawie sprzętu, możemy zwiększyć nakład pracy w innych obszarach projektu, by zrekompensować opóźnienie.
 
-20. **Jaka jeszcze inna perspektywa oprócz perspektywy specyfikacyjnej i implementacyjnej dotyczy modelowania rozwiązania z wykorzystaniem języka UML? Na czym ona polega?**
+1. **Jaka jeszcze inna perspektywa oprócz perspektywy specyfikacyjnej i implementacyjnej dotyczy modelowania rozwiązania z wykorzystaniem języka UML? Na czym ona polega?**
 
-Jedną z innych perspektyw w modelowaniu rozwiązania z wykorzystaniem języka UML jest perspektywa wdrażania. W tej perspektywie projektujemy i modelujemy rozwiązanie w kontekście jego implementacji i wdrażania. Skupiamy się na aspektach technicznych związanych z instalacją, konfiguracją i wdrożeniem rozwiązania. Dzięki temu możemy w łatwy sposób przewidzieć i rozwiązać problemy związane z procesem wdrożenia oraz zoptymalizować proces implementacji. Perspektywa wdrażania jest szczególnie przydatna w projektach programistycznych, gdzie często występuje potrzeba integracji z istniejącymi systemami i infrastrukturą.
+   Jedną z innych perspektyw w modelowaniu rozwiązania z wykorzystaniem języka UML jest perspektywa wdrażania. W tej perspektywie projektujemy i modelujemy rozwiązanie w kontekście jego implementacji i wdrażania. Skupiamy się na aspektach technicznych związanych z instalacją, konfiguracją i wdrożeniem rozwiązania. Dzięki temu możemy w łatwy sposób przewidzieć i rozwiązać problemy związane z procesem wdrożenia oraz zoptymalizować proces implementacji. Perspektywa wdrażania jest szczególnie przydatna w projektach programistycznych, gdzie często występuje potrzeba integracji z istniejącymi systemami i infrastrukturą.
 
 ## SZTUCZNA INTELIGENCJA
 
