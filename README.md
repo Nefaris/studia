@@ -323,111 +323,111 @@
 
 ## PROGRAMOWANIE
 
-1. **W jaki sposób identyfikujemy miejsce przekazania sterowania w inne miejsce w programie w językach interpretowanych, a w jaki w językach kompilowanych?**
+1. **W jaki sposób identyfikujemy miejsce przekazania sterowania w inne miejsce w programie w językach interpretowanych, a w jaki w językach kompilowanych?**
 
-2. **Wskaż różnice pomiędzy programowaniem imperatywnym a programowaniem funkcyjnym. Które podejście związane jest ze zmianą stanu?**
+1. **Wskaż różnice pomiędzy programowaniem imperatywnym a programowaniem funkcyjnym. Które podejście związane jest ze zmianą stanu?**
 
-3. **Czym jest postać strukturalna kodu źródłowego i co należy zrobić aby można było ją otrzymać w przypadku kiedy mamy do czynienia nawet z programowaniem funkcyjnym?**
+1. **Czym jest postać strukturalna kodu źródłowego i co należy zrobić aby można było ją otrzymać w przypadku kiedy mamy do czynienia nawet z programowaniem funkcyjnym?**
 
-4. **Wskaż sprawdzalną metodę zapewniania skalowalności kodu źródłowego tworzonego z zastosowaniem paradygmatu programowania obiektowego.**
+1. **Wskaż sprawdzalną metodę zapewniania skalowalności kodu źródłowego tworzonego z zastosowaniem paradygmatu programowania obiektowego.**
 
-5. **Które składowe klasy są najważniejsze i dlaczego?**
+1. **Które składowe klasy są najważniejsze i dlaczego?**
 
-6. **Który mechanizm paradygmatu programowania obiektowego jest najważniejszy i dlaczego?**
+1. **Który mechanizm paradygmatu programowania obiektowego jest najważniejszy i dlaczego?**
 
-7. **Jaka jest istotna różnica pomiędzy programowaniem klasowym a programowaniem prototypowym?**
+1. **Jaka jest istotna różnica pomiędzy programowaniem klasowym a programowaniem prototypowym?**
 
-8. **Co jeszcze oprócz funkcji i metod możemy określić jako abstrakcję przy tworzeniu oprogramowania z wykorzystaniem programowania zorientowanego obiektowo?**
+1. **Co jeszcze oprócz funkcji i metod możemy określić jako abstrakcję przy tworzeniu oprogramowania z wykorzystaniem programowania zorientowanego obiektowo?**
 
-9. **Omów mechanizm polimorfizmu w zakresie możliwości wykorzystania szablonów.**
+1. **Omów mechanizm polimorfizmu w zakresie możliwości wykorzystania szablonów.**
 
-10.  **Wyjaśnij na czym polega polimorfizm w zakresie możliwości wykorzystania mechanizmu przeciążania operatorów.**
+1. **Wyjaśnij na czym polega polimorfizm w zakresie możliwości wykorzystania mechanizmu przeciążania operatorów.**
 
-11.  **Jaka jest znacząca różnica pomiędzy metaprogramowaniem a tworzeniem kodu źródłowego z wykorzystaniem podejścia generycznego?**
+1. **Jaka jest znacząca różnica pomiędzy metaprogramowaniem a tworzeniem kodu źródłowego z wykorzystaniem podejścia generycznego?**
 
-12.  **Omów struktury kontrolne przy pomocy których możliwe jest zbudowanie dowolnego programu. Podaj praktyczne przykłady każdego wskazanego typu struktury.**
+1. **Omów struktury kontrolne przy pomocy których możliwe jest zbudowanie dowolnego programu. Podaj praktyczne przykłady każdego wskazanego typu struktury.**
 
-13.  **Co w praktyce oznacza, że kod źródłowy programu spełnia warunek deterministyczności?**
+1. **Co w praktyce oznacza, że kod źródłowy programu spełnia warunek deterministyczności?**
 
-14.  **Omów typy i przypadki zastosowania znanych Ci modyfikatorów parametrów metod języków obiektowych takich jak C++,  Java i C#.**
+1. **Omów typy i przypadki zastosowania znanych Ci modyfikatorów parametrów metod języków obiektowych takich jak C++,  Java i C#.**
 
-15.  **W jaki sposób możemy zdefiniować metodę synchroniczną w kodzie źródłowym i na czym ona polega?**
+1. **W jaki sposób możemy zdefiniować metodę synchroniczną w kodzie źródłowym i na czym ona polega?**
 
-16.  **Podaj praktyczny przykład obsługi wyjątku kontrolowanego i wyjątku niekontrolowanego. Kiedy możemy stosować wyjątki kontrolowane?**
+1. **Podaj praktyczny przykład obsługi wyjątku kontrolowanego i wyjątku niekontrolowanego. Kiedy możemy stosować wyjątki kontrolowane?**
 
-17.  **W jaki sposób możemy sterować procesem serializacji obiektów w tworzonym oprogramowaniu?**
+1. **W jaki sposób możemy sterować procesem serializacji obiektów w tworzonym oprogramowaniu?**
 
-18.  **Omów uwarunkowania dostępu do składowych prywatnych obiektu przy zastosowaniu mechanizmu odzwierciedleń (refleksji).**
+1. **Omów uwarunkowania dostępu do składowych prywatnych obiektu przy zastosowaniu mechanizmu odzwierciedleń (refleksji).**
 
-19.  **Odwołując się do znanego Ci języka programowania obiektowego wskaż problemy związane z wykorzystywaniem kolekcji przechowujących obiekty.**
+1. **Odwołując się do znanego Ci języka programowania obiektowego wskaż problemy związane z wykorzystywaniem kolekcji przechowujących obiekty.**
 
-20.  **W jaki sposób w kodzie źródłowym należy odzwierciedlić brak modyfikatora metod, który jest widoczny w diagramie klas UML?**
+1. **W jaki sposób w kodzie źródłowym należy odzwierciedlić brak modyfikatora metod, który jest widoczny w diagramie klas UML?**
 
 ## TECHNOLOGIE INTERNETOWE I MOBILNE
 
-1. **Opisz jak przebiega komunikacja komputera z serwerem HTTP podczas próby odczytu pliku \*.php 2. Omów budowę i zasadę działania formularza HTML5 oraz przedstaw przynajmniej trzy typy pól.**
+1. **Opisz jak przebiega komunikacja komputera z serwerem HTTP podczas próby odczytu pliku \*.php 2. Omów budowę i zasadę działania formularza HTML5 oraz przedstaw przynajmniej trzy typy pól.**
 
-2. **Omów różnice między metodami przesyłania danych GET i POST. Podaj przykłady zastosowań obu metod.**
+1. **Omów różnice między metodami przesyłania danych GET i POST. Podaj przykłady zastosowań obu metod.**
 
-3. **Omów na przykładach budowę i sposoby wykorzystania kaskadowych arkuszy stylów CSS.**
+1. **Omów na przykładach budowę i sposoby wykorzystania kaskadowych arkuszy stylów CSS.**
 
-4. **Technologia Ajax – czym jest i w jakich rozwiązaniach jest wykorzystywana**
+1. **Technologia Ajax – czym jest i w jakich rozwiązaniach jest wykorzystywana**
 
-5. **Omów zasadę komunikacji aplikacji klienckiej z serwerem bazodanowym na przykładzie PHP i MySQL**
+1. **Omów zasadę komunikacji aplikacji klienckiej z serwerem bazodanowym na przykładzie PHP i MySQL**
 
-6. **Przedstaw sposób wykorzystania mechanizmu plików cookies.**
+1. **Przedstaw sposób wykorzystania mechanizmu plików cookies.**
 
-7. **Przedstaw sposób wykorzystania mechanizmu zmiennych sesyjnych**
+1. **Przedstaw sposób wykorzystania mechanizmu zmiennych sesyjnych**
 
-8. **Omów podstawowe konstrukcje i znaczenie języka XML**
+1. **Omów podstawowe konstrukcje i znaczenie języka XML**
 
-9. **Scharakteryzuj możliwości języka HTML5 umożliwiające wygodne tworzenie aplikacji graficznych.**
+1. **Scharakteryzuj możliwości języka HTML5 umożliwiające wygodne tworzenie aplikacji graficznych.**
 
-10.  **Wymień po jednym przykładzie stosowanego na stronach WWW skryptowego języka programowania, wykonywanego a) po stronie klienta b) po stronie serwera.**
+1. **Wymień po jednym przykładzie stosowanego na stronach WWW skryptowego języka programowania, wykonywanego a) po stronie klienta b) po stronie serwera.**
 
 ## INTERNET RZECZY, SIECI KOMPUTEROWE
 
-1. **W jaki sposób zbudować prostą sieć do małego biura.**
+1. **W jaki sposób zbudować prostą sieć do małego biura.**
 
-2. **W jakich sytuacjach wskazane byłoby zastosowanie medium: kable miedziane/światłowód/transmisja bezprzewodowa.**
+1. **W jakich sytuacjach wskazane byłoby zastosowanie medium: kable miedziane/światłowód/transmisja bezprzewodowa.**
 
-3. **Jakie problemy pojawiają się z adresacją IPv4.**
+1. **Jakie problemy pojawiają się z adresacją IPv4.**
 
-4. **Co jest potrzebne do wdrożenia IPv6 w sieci LAN.**
+1. **Co jest potrzebne do wdrożenia IPv6 w sieci LAN.**
 
-5. **Jakie problemy występują w użytkowaniu i zarządzaniu sieciami Wi-Fi.**
+1. **Jakie problemy występują w użytkowaniu i zarządzaniu sieciami Wi-Fi.**
 
-6. **Jak zabezpieczyć urządzenia sieciowe przed zagrożeniami.**
+1. **Jak zabezpieczyć urządzenia sieciowe przed zagrożeniami.**
 
-7. **Jak wykorzystać sieci VLAN w sieciach korporacyjnych.**
+1. **Jak wykorzystać sieci VLAN w sieciach korporacyjnych.**
 
-8. **W jaki sposób zapewnić wysoką niezawodność sieci LAN.**
+1. **W jaki sposób zapewnić wysoką niezawodność sieci LAN.**
 
-9. **Jak ograniczyć ataki na sieci LAN.**
+1. **Jak ograniczyć ataki na sieci LAN.**
 
-10.  **Kiedy routing statyczny ma przewagę nad routingiem dynamicznym.**
+1. **Kiedy routing statyczny ma przewagę nad routingiem dynamicznym.**
 
-11.  **Jakie narzędzia stosuje się do rozwiązywania problemów w sieci.**
+1. **Jakie narzędzia stosuje się do rozwiązywania problemów w sieci.**
 
-12.  **Jakie znaczenie ma zgodność rozwiązania ze standardem.**
+1. **Jakie znaczenie ma zgodność rozwiązania ze standardem.**
 
-13.  **W jaki sposób dobrać technologię dostępu do Internetu.**
+1. **W jaki sposób dobrać technologię dostępu do Internetu.**
 
-14.  **Jak zapewnić właściwy przeszył danych głosowych w sieci.**
+1. **Jak zapewnić właściwy przeszył danych głosowych w sieci.**
 
-15.  **W jaki sposób ograniczyć dostęp do wybranych hostów lub usług.**
+1. **W jaki sposób ograniczyć dostęp do wybranych hostów lub usług.**
 
-16.  **Czym rożni się Arduino od Raspberry Pi.**
+1. **Czym rożni się Arduino od Raspberry Pi.**
 
-17.  **Jakie języki programowania używane są w technologiach IoT.**
+1. **Jakie języki programowania używane są w technologiach IoT.**
 
-18.  **Jakie komponenty będą potrzebne do zbudowania systemu inteligentnego domu.**
+1. **Jakie komponenty będą potrzebne do zbudowania systemu inteligentnego domu.**
 
-19.  **W jakim celu stosuje się przetwarzanie w Chmurze.**
+1. **W jakim celu stosuje się przetwarzanie w Chmurze.**
 
-20.  **Jakie rozwiązania stosowane są do wymiany informacji w systemach IoT.**
+1. **Jakie rozwiązania stosowane są do wymiany informacji w systemach IoT.**
 
-21.  **W jaki sposób systemy IoT minimalizują zapotrzebowanie na zasilanie.**
+1. **W jaki sposób systemy IoT minimalizują zapotrzebowanie na zasilanie.**
 
 ## INŻYNIERIA GIER KOMPUTEROWYCH, GRAFIKA KOMPUTEROWA W GRACH
 
