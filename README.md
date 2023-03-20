@@ -425,65 +425,164 @@
 
 1. **W jaki sposób identyfikujemy miejsce przekazania sterowania w inne miejsce w programie w językach interpretowanych, a w jaki w językach kompilowanych?**
 
-1. **Wskaż różnice pomiędzy programowaniem imperatywnym a programowaniem funkcyjnym. Które podejście związane jest ze zmianą stanu?**
+   W językach interpretowanych, miejsce przekazania sterowania można zidentyfikować przez analizę kodu źródłowego podczas wykonywania programu. W językach kompilowanych, sterowanie jest przekazywane przez skok do określonego adresu w kodzie maszynowym, który zostaje wygenerowany w trakcie kompilacji.
 
-1. **Czym jest postać strukturalna kodu źródłowego i co należy zrobić aby można było ją otrzymać w przypadku kiedy mamy do czynienia nawet z programowaniem funkcyjnym?**
+2. **Wskaż różnice pomiędzy programowaniem imperatywnym a programowaniem funkcyjnym. Które podejście związane jest ze zmianą stanu?**
 
-1. **Wskaż sprawdzalną metodę zapewniania skalowalności kodu źródłowego tworzonego z zastosowaniem paradygmatu programowania obiektowego.**
+   Programowanie imperatywne polega na wykonywaniu sekwencji instrukcji, które zmieniają stan programu. Programowanie funkcyjne opiera się na ewaluacji funkcji matematycznych bez zmiany stanu. Programowanie imperatywne jest związane ze zmianą stanu.
+
+3. **Czym jest postać strukturalna kodu źródłowego i co należy zrobić aby można było ją otrzymać w przypadku kiedy mamy do czynienia nawet z programowaniem funkcyjnym?**
+
+   Postać strukturalna kodu źródłowego to uporządkowany i hierarchiczny układ elementów składowych programu. W przypadku programowania funkcyjnego, można uzyskać postać strukturalną kodu poprzez użycie funkcji wyższego rzędu, rekurencji oraz kompozycji funkcji.
+
+4. **Wskaż sprawdzalną metodę zapewniania skalowalności kodu źródłowego tworzonego z zastosowaniem paradygmatu programowania obiektowego.**
+
+   Sprawdzalną metodą zapewniania skalowalności kodu źródłowego w programowaniu obiektowym jest stosowanie wzorców projektowych, takich jak Singleton, Strategia czy Adapter.
 
 1. **Które składowe klasy są najważniejsze i dlaczego?**
 
+Najważniejsze składowe klasy to metody (definiują zachowanie obiektów) oraz pola (przechowują stan obiektów). Są one kluczowe, ponieważ stanowią podstawę dla interakcji i współpracy obiektów.
+
 1. **Który mechanizm paradygmatu programowania obiektowego jest najważniejszy i dlaczego?**
+
+   Najważniejszym mechanizmem programowania obiektowego jest enkapsulacja, która pozwala na ukrycie szczegółów implementacji i eksponowanie jedynie interfejsu publicznego.
 
 1. **Jaka jest istotna różnica pomiędzy programowaniem klasowym a programowaniem prototypowym?**
 
+   Istotna różnica pomiędzy programowaniem klasowym a prototypowym polega na tym, że w klasowym dziedziczenie opiera się na klasach i ich instancjach, natomiast w prototypowym dziedziczenie odbywa się bezpośrednio między obiektami (prototypami).
+
 1. **Co jeszcze oprócz funkcji i metod możemy określić jako abstrakcję przy tworzeniu oprogramowania z wykorzystaniem programowania zorientowanego obiektowo?**
+
+   Oprócz funkcji i metod, abstrakcją w programowaniu obiektowym są klasy, interfejsy oraz moduły.
 
 1. **Omów mechanizm polimorfizmu w zakresie możliwości wykorzystania szablonów.**
 
+   Polimorfizm w kontekście szablonów pozwala na tworzenie ogólnych funkcji i klas, które mogą operować na różnych typach danych. Dzięki temu, można tworzyć uniwersalne, wielokrotnie używane rozwiązania.
+
 1. **Wyjaśnij na czym polega polimorfizm w zakresie możliwości wykorzystania mechanizmu przeciążania operatorów.**
+
+   Polimorfizm związany z przeciążaniem operatorów polega na możliwości definiowania różnych implementacji operatorów dla różnych typów danych lub kombinacji typów, co pozwala na bardziej intuicyjne i elastyczne korzystanie z operatorów w kodzie.
 
 1. **Jaka jest znacząca różnica pomiędzy metaprogramowaniem a tworzeniem kodu źródłowego z wykorzystaniem podejścia generycznego?**
 
+   Główna różnica między metaprogramowaniem a podejściem generycznym polega na tym, że metaprogramowanie umożliwia generowanie i manipulację kodem źródłowym w czasie kompilacji, podczas gdy podejście generyczne polega na tworzeniu ogólnych szablonów, które są parametryzowane typami danych w czasie kompilacji.
+
 1. **Omów struktury kontrolne przy pomocy których możliwe jest zbudowanie dowolnego programu. Podaj praktyczne przykłady każdego wskazanego typu struktury.**
+
+   Struktury kontrolne to elementy języka programowania pozwalające na kontrolowanie przepływu sterowania w programie. Przykłady:
+
+   - Warunek `if/else`: Pozwala na wykonanie instrukcji tylko wtedy, gdy dany warunek jest spełniony.
+   - Pętla `for`: Wykonuje blok kodu określoną liczbę razy.
+   - Pętla `while`: Wykonuje blok kodu, dopóki podany warunek jest spełniony.
+   - Pętla `do`-`while`: Wykonuje blok kodu co najmniej raz, a następnie dopóki warunek jest spełniony.
 
 1. **Co w praktyce oznacza, że kod źródłowy programu spełnia warunek deterministyczności?**
 
+   Deterministyczność kodu źródłowego oznacza, że program zawsze daje te same wyniki dla tych samych danych wejściowych, niezależnie od warunków zewnętrznych czy kolejności wykonania instrukcji.
+
 1. **Omów typy i przypadki zastosowania znanych Ci modyfikatorów parametrów metod języków obiektowych takich jak C++,  Java i C#.**
+
+   Modyfikatory parametrów metod w C++, Java i C#:
+
+   - `final` (Java): Parametr oznaczony jako final nie może być modyfikowany wewnątrz metody.
+   - `out` (C#): Parametr przekazywany przez referencję, który pozwala na przekazanie wartości z metody na zewnątrz. Wartość musi zostać przypisana wewnątrz metody.
+   - `ref` (C#): Parametr przekazywany przez referencję, który pozwala na przekazanie wartości do i z metody.
+   - `const` (C++): Parametr, który nie może być zmieniony wewnątrz funkcji.
 
 1. **W jaki sposób możemy zdefiniować metodę synchroniczną w kodzie źródłowym i na czym ona polega?**
 
+   Metodę synchroniczną można zdefiniować jako standardową funkcję, która wykonuje się sekwencyjnie i blokuje wywołujący wątek do czasu zakończenia swojego wykonania. Przykład w C#: `public int Dodaj(int a, int b) { return a + b; }`
+
 1. **Podaj praktyczny przykład obsługi wyjątku kontrolowanego i wyjątku niekontrolowanego. Kiedy możemy stosować wyjątki kontrolowane?**
+
+   Praktyczny przykład obsługi wyjątku kontrolowanego to sytuacja, gdy otwieramy plik, który może nie istnieć. Wyjątek niekontrolowany może wystąpić, gdy próbujemy podzielić liczbę przez zero. Stosujemy wyjątki kontrolowane, gdy chcemy wymusić na programiście obsługę określonych sytuacji wyjątkowych, które mogą wystąpić podczas działania programu.
 
 1. **W jaki sposób możemy sterować procesem serializacji obiektów w tworzonym oprogramowaniu?**
 
+   Proces serializacji obiektów można sterować poprzez implementację interfejsów serializacji (np. Serializable w Javie) oraz stosowanie atrybutów i adnotacji, które określają, jakie pola mają być serializowane, a jakie pominięte.
+
 1. **Omów uwarunkowania dostępu do składowych prywatnych obiektu przy zastosowaniu mechanizmu odzwierciedleń (refleksji).**
+
+   Mechanizm odzwierciedleń (refleksji) pozwala na analizę i manipulację składowymi obiektu w czasie działania programu. Dostęp do prywatnych składowych można uzyskać, ale może to naruszyć enkapsulację i prowadzić do błędów. W praktyce, refleksja powinna
 
 1. **Odwołując się do znanego Ci języka programowania obiektowego wskaż problemy związane z wykorzystywaniem kolekcji przechowujących obiekty.**
 
+   Problemy związane z wykorzystywaniem kolekcji przechowujących obiekty mogą obejmować:
+
+   - Naruszenie enkapsulacji poprzez bezpośredni dostęp do składowych obiektów
+   - Brak kontroli nad czasem życia obiektów
+   - Zagrożenie wyciekiem pamięci
+   - Problemy związane z równoczesnym dostępem do danych w wielowątkowych aplikacjach
+
 1. **W jaki sposób w kodzie źródłowym należy odzwierciedlić brak modyfikatora metod, który jest widoczny w diagramie klas UML?**
+
+   - W kodzie źródłowym brak modyfikatora metod, który jest widoczny w diagramie klas UML, można odzwierciedlić przez stosowanie domyślnego modyfikatora dostępu dla danego języka programowania. Na przykład, w Javie domyślny modyfikator to "package-private", co oznacza, że metoda jest dostępna tylko dla klas w tej samej paczce. W C# domyślnym modyfikatorem jest "private", co oznacza, że metoda jest dostępna tylko wewnątrz klasy.
 
 ## TECHNOLOGIE INTERNETOWE I MOBILNE
 
 1. **Opisz jak przebiega komunikacja komputera z serwerem HTTP podczas próby odczytu pliku \*.php 2. Omów budowę i zasadę działania formularza HTML5 oraz przedstaw przynajmniej trzy typy pól.**
 
+   Przy próbie odczytu pliku \*.php przez komputer, komunikacja między nim a serwerem HTTP przebiega następująco:
+
+   - Komputer wysyła zapytanie do serwera HTTP o wyświetlenie strony z plikiem \*.php.
+   - Serwer HTTP odbiera to zapytanie i przetwarza je w celu wykonania kodu PHP w pliku \*.php.
+   - Po przetworzeniu kodu PHP, serwer HTTP generuje stronę HTML, która zostanie zwrócona do komputera.
+   - Komputer odbiera odpowiedź serwera HTTP i wyświetla stronę HTML w przeglądarce internetowej.
+
+   Formularz HTML5 to element, który pozwala użytkownikom przesyłać dane do serwera HTTP za pomocą przeglądarki internetowej. Formularz składa się z następujących elementów:
+
+   - Tag formularza `<form>`: określa początek i koniec formularza.
+   - Atrybut action: określa adres URL, do którego będą przesyłane dane formularza.
+   - Atrybut method: określa metodę przesyłania danych (np. GET lub POST).
+   - Elementy formularza, takie jak pola tekstowe, pola wyboru, przyciski, itp.
+
+   Zasada działania formularza polega na tym, że użytkownik wypełnia pola formularza i przesyła dane do serwera HTTP, który przetwarza te dane i zwraca odpowiedź. Na przykład, formularz logowania może zawierać pola tekstowe dla nazwy użytkownika i hasła, a serwer HTTP może zweryfikować te dane i zezwolić użytkownikowi na dostęp do chronionych treści.
+
+   Typy pól formularza HTML5
+
+   - Pole tekstowe (`<input type="text">`): umożliwia użytkownikowi wprowadzenie tekstu.
+   - Pole wyboru (`<select> i <option>`): umożliwia użytkownikowi wybór jednej lub kilku opcji z listy rozwijanej.
+   - Pole zaznaczenia (`<input type="checkbox">`): umożliwia użytkownikowi zaznaczenie jednego lub kilku pól wyboru.
+
 1. **Omów różnice między metodami przesyłania danych GET i POST. Podaj przykłady zastosowań obu metod.**
+
+   Metoda GET przesyła dane za pomocą adresu URL. Dane są widoczne w pasku adresu przeglądarki. Dane te są dodawane do adresu URL jako parametry zapytania. Metoda GET jest używana do pobierania danych z serwera. Limit długości danych, które można przesłać za pomocą metody GET, wynosi około 2000 znaków.
+
+   Metoda POST przesyła dane do serwera w ciele zapytania. Dane nie są widoczne w pasku adresu przeglądarki. Metoda POST jest używana do przesyłania danych do serwera, np. do wprowadzania zmian w bazie danych lub przesyłania plików.
 
 1. **Omów na przykładach budowę i sposoby wykorzystania kaskadowych arkuszy stylów CSS.**
 
+   Kaskadowe arkusze stylów (CSS) to język służący do opisu wyglądu stron internetowych. Budowa kaskadowego arkusza stylów składa się z selektorów, deklaracji i wartości. Selektory określają, na które elementy strony mają być zastosowane deklaracje, a deklaracje zawierają właściwości i wartości, które mają zostać zastosowane. Przykładem zastosowania kaskadowego arkusza stylów może być zmiana koloru tła lub czcionki na stronie internetowej.
+
 1. **Technologia Ajax – czym jest i w jakich rozwiązaniach jest wykorzystywana**
+
+   Technologia AJAX (Asynchronous JavaScript and XML) umożliwia przesyłanie danych między serwerem a klientem bez konieczności przeładowywania całej strony. Jest wykorzystywana w aplikacjach internetowych, takich jak poczty elektroniczne, w aplikacjach do zarządzania treścią, w grach online i w wielu innych rozwiązaniach internetowych.
 
 1. **Omów zasadę komunikacji aplikacji klienckiej z serwerem bazodanowym na przykładzie PHP i MySQL**
 
+   Aplikacja kliencka nawiązuje połączenie z serwerem bazodanowym, korzystając z interfejsu programowania aplikacji (API) PHP do MySQL. Następnie aplikacja kliencka wysyła zapytanie SQL do serwera MySQL, który przetwarza zapytanie i zwraca wyniki. Aplikacja kliencka może następnie wykorzystać te wyniki, aby wyświetlić lub zaktualizować dane na stronie internetowej.
+
 1. **Przedstaw sposób wykorzystania mechanizmu plików cookies.**
+
+   Mechanizm plików cookies umożliwia przechowywanie informacji na komputerze użytkownika przez serwer internetowy. Przykładowe zastosowanie cookies może obejmować przechowywanie ustawień języka strony internetowej, zapamiętywanie koszyka zakupów lub autoryzacji użytkownika.
 
 1. **Przedstaw sposób wykorzystania mechanizmu zmiennych sesyjnych**
 
+   Mechanizm zmiennych sesyjnych umożliwia przechowywanie informacji o sesji użytkownika na serwerze. Przykładowe zastosowanie zmiennych sesyjnych może obejmować przechowywanie informacji o zalogowanym użytkowniku, ustawieniach strony internetowej lub zawartości koszyka zakupów.
+
 1. **Omów podstawowe konstrukcje i znaczenie języka XML**
+
+   XML (Extensible Markup Language) to język służący do reprezentowania danych w formie tekstowej. Podstawowe konstrukcje języka XML to elementy, atrybuty i wartości. Elementy opisują dane, a atrybuty opisują właściwości tych danych. XML jest szeroko stosowany do wymiany danych między systemami, takich jak aplikacje internetowe i bazy danych.
 
 1. **Scharakteryzuj możliwości języka HTML5 umożliwiające wygodne tworzenie aplikacji graficznych.**
 
+   HTML5 umożliwia tworzenie aplikacji graficznych z użyciem canvas, elementu umożliwiającego rysowanie grafiki wektorowej i bitmapowej, oraz SVG, formatu służącego do opisu grafiki wektorowej. HTML5 umożliwia także tworzenie aplikacji mobilnych i gier online z użyciem funkcji takich jak geo-lokal
+
 1. **Wymień po jednym przykładzie stosowanego na stronach WWW skryptowego języka programowania, wykonywanego a) po stronie klienta b) po stronie serwera.**
+
+   Przykładem skryptowego języka programowania, wykonywanego po stronie klienta, może być JavaScript, który umożliwia łatwe i szybkie manipulowanie elementami HTML, obsługę zdarzeń, animacje i wiele innych funkcji.
+
+   Przykładem skryptowego języka programowania, wykonywanego po stronie serwera, może być Python. Python jest popularnym językiem programowania, który jest szeroko stosowany w aplikacjach internetowych. Python umożliwia łatwą komunikację z bazami danych, przetwarzanie formularzy, wysyłanie wiadomości e-mail i wiele innych funkcji. Popularnym frameworkiem Pythona do tworzenia aplikacji internetowych jest Django.
 
 ## INTERNET RZECZY, SIECI KOMPUTEROWE
 
